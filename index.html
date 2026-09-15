@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PuzzleSip</title>
+<meta name="description" content="Three tiny puzzles a day. Block fit, pipe link and number merge, free and offline on Android.">
+<link rel="icon" href="icon.png">
+<meta property="og:title" content="PuzzleSip">
+<meta property="og:description" content="Three tiny puzzles a day, and as many more as you want.">
+<meta property="og:image" content="banner.png">
+<style>
+  :root {
+    --paper: #ffffff; --ink: #161b24; --ink-soft: #545d6f;
+    --line: #dfe3ec; --accent: #2f62c4;
+    --block: #2f62c4; --pipe: #12735f; --merge: #a4571a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #10131a; --ink: #f2f4f8; --ink-soft: #9aa4b6;
+      --line: #333c4d; --accent: #5b8def;
+      --block: #5b8def; --pipe: #3fbf9e; --merge: #ef9a4b;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font: 16px/1.75 -apple-system, "Segoe UI", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding-inline: 20px; padding-block: 56px 96px; }
+  .banner { width: 100%; max-width: 100%; border-radius: 14px; border: 1px solid var(--line); display: block; }
+  .head { display: flex; align-items: center; gap: 16px; margin: 34px 0 6px; }
+  .head img { width: 56px; height: 56px; border-radius: 13px; }
+  h1 { font-size: 2rem; margin: 0; letter-spacing: -.01em; }
+  .tagline { color: var(--ink-soft); font-size: 1.05rem; margin: 0 0 30px; }
+  h2 { font-size: 1.1rem; margin: 40px 0 10px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+  p, li { color: var(--ink-soft); }
+  li { margin-bottom: .5em; }
+  li b { color: var(--ink); }
+  a { color: var(--accent); }
+  ul { padding-left: 1.2em; }
+  .ja { margin-top: 56px; padding-top: 8px; }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); font-size: .9rem; color: var(--ink-soft); }
+</style>
+</head>
+<body>
+<main>
+  <img class="banner" src="banner.png" alt="Three puzzle boards: block fit, pipe link and number merge">
+
+  <div class="head">
+    <img src="icon.png" alt="">
+    <h1>PuzzleSip</h1>
+  </div>
+  <p class="tagline">Three tiny puzzles a day, and as many more as you want.</p>
+
+  <p>
+    A daily challenge in each of three genres, plus an endless mode for the gaps
+    in between. Every puzzle is generated on your phone from the date, so
+    everyone gets the same three puzzles and there is nothing to sign in to.
+  </p>
+
+  <h2>The three genres</h2>
+  <ul>
+    <li><b>Block Fit</b> &mdash; drop shapes onto a 10&times;10 board and clear full rows and columns</li>
+    <li><b>Pipe Link</b> &mdash; join every pair of dots and fill every square</li>
+    <li><b>Number Merge</b> &mdash; combine equal neighbours until one tile is left</li>
+  </ul>
+
+  <h2>Solve all three and the day is perfect</h2>
+  <p>
+    Finishing every genre on the same day extends your streak. Personal bests
+    and streaks are kept on your phone and nowhere else.
+  </p>
+
+  <h2>Free, with ads</h2>
+  <p>
+    Ads appear after a puzzle is finished and between endless rounds, never
+    while a board is open. Hints and extra undos are optional: watch an ad, get
+    the perk. Nothing is randomised and nothing is for sale.
+  </p>
+
+  <section class="ja" lang="ja">
+    <h2>日本語</h2>
+    <p>
+      性質のちがう3種類のパズルから、毎日1問ずつ出題します。今日の問題は、どの端末でも同じ問題です。
+      もっと遊びたい日のために、各ジャンルにエンドレスモードもあります。
+    </p>
+    <ul>
+      <li><b>ブロックはめ込み</b> &mdash; 10×10 の盤面にピースを置き、そろった列を消す</li>
+      <li><b>パイプつなぎ</b> &mdash; 同じ色の点をつなぎ、すべてのマスを埋める</li>
+      <li><b>数字マージ</b> &mdash; となり合う同じ数字を合体させ、最後の1枚まで畳む</li>
+    </ul>
+    <p>
+      問題は端末内で生成しているので、アカウント登録は不要、オフラインでも遊べます。
+      スコアと記録は端末の中だけに残ります。無料で、広告によって運営しています。
+      広告が出るのは問題を解き終わったあとと、エンドレスの区切りだけです。
+    </p>
+  </section>
+
+  <footer>
+    <a href="privacy.html">Privacy policy / プライバシーポリシー</a>
+  </footer>
+</main>
+</body>
+</html>
